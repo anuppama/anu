@@ -6,7 +6,8 @@ public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
 String str=s.next();
-String res=str.reverse();
+StringBuffer st=new StringBuffer(str);
+String res=String.valueOf(st.reverse());
 System.out.println(res);
 }
 }
