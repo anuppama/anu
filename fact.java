@@ -13,6 +13,8 @@ fact*= i;
 }
 if(num==0)
  System.out.println("1");
+else if(num<0)
+ System.out.println("0");
 else
  System.out.println(fact);
 }
